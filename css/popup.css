@@ -1,0 +1,182 @@
+/* Styles de base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body.quick-social-share__popup {
+  --primary-color: #71ddaf;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  width: 420px;
+  overflow-x: hidden;
+}
+
+.quick-social-share__popup .container {
+  padding: 16px;
+}
+
+.quick-social-share__popup header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.quick-social-share__popup header img.header-logo {
+  flex: 0 0 auto;
+  margin-right: 10px;
+}
+.quick-social-share__popup header h1 {
+  background-image: linear-gradient(to right top, #1aab6c, #3bcf8e, #58d9a0, #70e7b3, #7aebbb);
+  border-radius: 8px;
+  font-size: 1.4rem;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-align: center;
+  padding: 14px 10px;
+  color: #fff;
+  font-family: sans-serif;
+  flex-grow: 1;
+}
+.quick-social-share__popup header a.options-link {
+  margin-left: 5px;
+}
+.quick-social-share__popup header a.options-link svg {
+  opacity: .6;
+  transition: opacity 200ms ease-in-out;
+}
+.quick-social-share__popup header a.options-link:hover svg {
+  opacity: .3;
+  transition: opacity 200ms ease-in-out;
+}
+
+.quick-social-share__popup #active-tab-infos {
+  margin-bottom: 1rem;
+}
+.quick-social-share__popup #active-tab-title {
+  font-weight: bold;
+  font-size: 0.8rem;
+  display: block;
+}
+.quick-social-share__popup #active-tab-url {
+  display: block;
+}
+.quick-social-share__popup #active-tab-url a {
+  color: #000;
+  text-decoration: none;
+}
+.quick-social-share__popup #active-tab-url a:hover {
+  color: #888;
+}
+
+.quick-social-share__popup .tab-infos {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #d2e9df;
+}
+
+/* Copy button */
+.quick-social-share__popup .copy-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+  margin: 0 auto;
+}
+.quick-social-share__popup .copy-button:hover {
+  transform: translateY(-2px);
+  background-color: #e8e8e8;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+.quick-social-share__popup .copy-button.copied {
+  background-color: var(--primary-color);
+}
+.quick-social-share__popup .copy-button .icon {
+  margin-right: 8px;
+}
+
+/* Platforms grid */
+.quick-social-share__popup .social-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.quick-social-share__popup .social-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  transition: transform 0.2s, background-color 0.2s;
+}
+.quick-social-share__popup .social-button:hover {
+  transform: translateY(-2px);
+  background-color: #e8e8e8;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.quick-social-share__popup .social-button .icon {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 8px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.quick-social-share__popup .social-button .text {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+
+.quick-social-share__popup .btn-settings {
+  text-align: center;
+  margin-top: 16px;
+  color: #2bb379;
+}
+.quick-social-share__popup .btn-settings a {
+  color: #2bb379;
+  text-decoration: none;
+  font-size: 1rem;
+  text-align: center;
+}
+.quick-social-share__popup .btn-settings:hover {
+  text-decoration: underline;
+}
+
+
+.quick-social-share__popup footer {
+  width: 100%;
+  text-align: center;
+  font-size: .8rem;
+  color: #888;
+  margin-top: 1.2rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid #ddd;
+}
+.quick-social-share__popup footer a {
+  color: #888;
+}
+.quick-social-share__popup footer a:hover {
+  text-decoration: none;
+}
+
+.quick-social-share__popup span.bullet {
+  padding: 0 1rem;
+}

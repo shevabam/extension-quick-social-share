@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Options - Quick Social Share</title>
+  <link rel="stylesheet" href="css/options.css">
+</head>
+<body class="quick-social-share__options">
+  <div class="container">
+    <header>
+      <h1>Quick Social Share - Settings</h1>
+    </header>
+    
+    <div class="tabs-container">
+      <div class="tabs">
+        <button class="tab-button active" data-tab="enabled-networks">Enabled Networks</button>
+        <button class="tab-button" data-tab="display-order">Display Order</button>
+        <button class="tab-button" data-tab="custom-instances">Custom Instances</button>
+      </div>
+    </div>
+    
+    <main>
+      <section id="enabled-networks" class="section tab-content active">
+        <h2>Enabled Social Networks</h2>
+        <p>Enable or disable the platforms you want to use.</p>
+        <div id="platforms-list" class="platforms-list"></div>
+      </section>
+      
+      <section id="display-order" class="section tab-content">
+        <h2>Display Order</h2>
+        <p>Drag and drop to rearrange the order of platforms.</p>
+        <div id="sortable-platforms" class="sortable-list"></div>
+      </section>
+      
+      <section id="custom-instances" class="section tab-content">
+        <h2>Custom Instances</h2>
+        <div class="custom-instance">
+          <label for="mastodon-instance">Mastodon Instance</label>
+          <input type="text" id="mastodon-instance" placeholder="mastodon.social">
+        </div>
+        <div class="custom-instance">
+          <label for="bluesky-instance">Bluesky Instance</label>
+          <input type="text" id="bluesky-instance" placeholder="bsky.app">
+        </div>
+      </section>
+    </main>
+    
+    <footer>
+      <button id="save-button" class="primary-button">Save</button>
+      <button id="reset-button" class="secondary-button">Reset</button>
+    </footer>
+  </div>
+  
+  <script src="js/options.js" type="module"></script>
+</body>
+</html>
