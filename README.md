@@ -18,6 +18,8 @@ A browser (Chrome, Edge) extension that allows you to quickly share web pages ac
 - 📋 **Copy URL with one click**
 - ✨ **Clean and modern interface**
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/49xK43y6FyI?si=76ys2Mw9K9rUHhIt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Installation
 
 Download the extension from the [**Chrome Web Store**]() or [**Microsoft Edge Store**]()
