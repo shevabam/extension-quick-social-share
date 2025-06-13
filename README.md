@@ -23,7 +23,7 @@ A browser (Chrome, Edge) extension that allows you to quickly share web pages ac
 
 ## Installation
 
-Download the extension from the [**Chrome Web Store**]() or [**Microsoft Edge Store**]()
+Download the extension from the [**Chrome Web Store**](https://chromewebstore.google.com/detail/quick-social-share/lnimmkjipefahhllbodggpcngbnjafge) or [**Microsoft Edge Store**]()
 
 After installing the extension, pin it to your browser:
 
