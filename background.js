@@ -23,9 +23,18 @@ chrome.runtime.onInstalled.addListener(async () => {
   }
   
   // Create context menus
+  await removeAllContextMenus();
   createContextMenus();
   createActionContextMenus();
 });
+
+async function removeAllContextMenus() {
+  return new Promise((resolve) => {
+    chrome.contextMenus.removeAll(() => {
+      resolve();
+    });
+  });
+}
 
 async function createActionContextMenus() {
   chrome.contextMenus.create({
