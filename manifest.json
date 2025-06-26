@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Quick Social Share",
   "description": "Easily share web content on different social platforms",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "@shevabam",
   "homepage_url": "https://github.com/shevabam/extension-quick-social-share",
   "permissions": [
